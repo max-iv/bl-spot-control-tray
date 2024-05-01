@@ -1,0 +1,6 @@
+{
+    "79250bf3.365cc4": {
+        "user": "$(MQTTUSERNAME)",
+        "password": "$(MQTTPASSWORD)"
+    }
+}

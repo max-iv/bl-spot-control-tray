@@ -1,0 +1,28 @@
+{
+  "name": "blinky-shelly-trays",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_modules/node-red/red.js -s ./settings.js -u ./",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blinky-Lite/blinky-shelly-trays.git"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "David McGinnis",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "@node-red-contrib-themes/theme-collection": "^3.0.6",
+    "node-red": "^3.0.2",
+    "node-red-contrib-pythonshell": "~1.5.4",
+    "node-red-dashboard": "^3.4.0"
+  }
+}
