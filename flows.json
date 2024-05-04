@@ -870,7 +870,7 @@
                 "vt": "str"
             }
         ],
-        "repeat": "2",
+        "repeat": "4",
         "crontab": "",
         "once": true,
         "onceDelay": "14",
@@ -939,7 +939,7 @@
         "type": "function",
         "z": "7cbe116050851432",
         "name": "ParseReadings",
-        "func": "let tray = flow.get('tray');\ntray.watchdog.value = tray.watchdog.value + 1;\nif (tray.watchdog.value > 32760) tray.watchdog.value = 0;\ntray.timeStamp = new Date().getTime();\ntray.intensity.value = msg.payload.intensity;\ntray.posX.value = msg.payload.posX;\ntray.posY.value = msg.payload.posY;\ntray.beamSize.value = msg.payload.beamSize;\ntray.shutter_speed.value = msg.payload.shutter_speed;\ntray.cropPix.value = msg.payload.cropPix;\ntray.noiseFloorCut.value = msg.payload.noiseFloorCut;\ntray.minIntensity.value = msg.payload.minIntensity;\nreturn {topic:\"readingSuccess\",payload:true};",
+        "func": "let tray = flow.get('tray');\ntray.watchdog.value = tray.watchdog.value + 1;\nif (tray.watchdog.value > 32760) tray.watchdog.value = 0;\ntray.timeStamp = new Date().getTime();\ntray.intensity.value = msg.payload.intensity;\ntray.posX.value = msg.payload.posX;\ntray.acqTime.value = msg.payload.acqTime;\ntray.posY.value = msg.payload.posY;\ntray.beamSize.value = msg.payload.beamSize;\ntray.shutter_speed.value = msg.payload.shutter_speed;\ntray.cropPix.value = msg.payload.cropPix;\ntray.noiseFloorCut.value = msg.payload.noiseFloorCut;\ntray.minIntensity.value = msg.payload.minIntensity;\nreturn {topic:\"readingSuccess\",payload:true};",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -1062,7 +1062,7 @@
         "z": "7cbe116050851432",
         "name": "",
         "pauseType": "delay",
-        "timeout": "2",
+        "timeout": "4",
         "timeoutUnits": "seconds",
         "rate": "1",
         "nbRateUnits": "1",
