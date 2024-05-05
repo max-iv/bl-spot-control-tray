@@ -22,7 +22,6 @@
   "dependencies": {
     "@node-red-contrib-themes/theme-collection": "^3.0.6",
     "node-red": "^3.0.2",
-    "node-red-contrib-pythonshell": "~1.5.4",
     "node-red-dashboard": "^3.4.0"
   }
 }

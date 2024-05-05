@@ -1,2 +1,2 @@
-# bl-laser-spotter-tray
+# bl-spot-control-tray
 

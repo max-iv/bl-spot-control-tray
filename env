@@ -1,12 +1,12 @@
 BOX=blinky-lite-box-01
-TRAYTYPE=bl-laser-spotter
+TRAYTYPE=bl-spot-control
 TRAYNAME=01
-MQTTCLIENTID=bl-laser-spotter-01
+MQTTCLIENTID=bl-spot-control
 MQTTSERVERIP=192.168.4.1
 MQTTUSERNAME=blinky-lite-box-01
 MQTTPASSWORD=xxxx
-NODEREDPORT=1880
+NODEREDPORT=1882
 HTMLSTATICDIR=html-static/
-NODE_RED_TITLE=bl-laser-spotter
+NODE_RED_TITLE=bl-spot-control
 ENABLE_NODERED_EDITOR=1
-PM2NAME=laser-spotter
+PM2NAME=bl-spot-control
