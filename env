@@ -9,3 +9,4 @@ NODEREDPORT=1880
 HTMLSTATICDIR=html-static/
 NODE_RED_TITLE=bl-laser-spotter
 ENABLE_NODERED_EDITOR=1
+PM2NAME=laser-spotter
